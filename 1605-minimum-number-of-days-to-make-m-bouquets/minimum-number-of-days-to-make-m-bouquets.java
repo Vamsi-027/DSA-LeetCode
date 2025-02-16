@@ -8,7 +8,6 @@ class Solution {
         {
             int mid = left + (right-left)/2;
             int minBouquets = findMinBouquets(bloomDay, m, k, mid);
-            System.out.println("Mid : "+mid+ " Bouquest: " + minBouquets);
             if(minBouquets >= m) 
             {
                 result = mid;
