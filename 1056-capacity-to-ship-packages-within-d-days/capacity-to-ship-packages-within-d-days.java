@@ -8,7 +8,6 @@ class Solution {
         while(left <= right)
         {
             int mid = left + (right-left)/2;
-            System.out.println("MID: "+mid+" ");
             if(isPossibleToLoad(weights, days, mid))
             {
                 result = mid;
