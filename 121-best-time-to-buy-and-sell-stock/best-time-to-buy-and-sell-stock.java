@@ -32,8 +32,6 @@ class Solution {
 
         for(int i=0; i<priceDiffs.length; i++)
         {
-            System.out.println(priceDiffs[i]);
-
             curSum += priceDiffs[i];
             maxSum = Math.max(curSum, maxSum);
 
