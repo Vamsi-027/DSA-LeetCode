@@ -9,6 +9,7 @@ class Solution {
             if(nums[mid] % 2 == 0)
             {
                 swap(nums, low, mid);
+                low++;
                 mid++;
             }
             else
